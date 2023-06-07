@@ -234,7 +234,7 @@ $(('window').onload = function(){
 
 <section class="editable-style section-element silex-id-1684315526278-3 sticky fixed"><div class="editable-style container-element silex-id-1684315526279-4 silex-element-content sticky website-width"><div class="editable-style image-element silex-id-1684315626704-5"><img src="assets/Isendoorn.jpg"></div><div class="editable-style text-element silex-id-1684936644617-27 silex-component-hamburger prevent-resizable prevent-auto-z-index"><div class="silex-element-content normal">
 <!-- inspired by https://codepen.io/erikterwan/pen/EVzeRP -->
-<div class="hamburger-menu_1685617875912_979 closed">
+<div class="hamburger-menu_1686127875118_491 closed">
     <div class="hamburger-btn ">
       <span></span>
       <span></span>
@@ -247,13 +247,13 @@ $(('window').onload = function(){
             
                 <li><a href="index.html">Hoofdpagina</a></li>
             
-                <li><a href="proc.html" class="">Proces</a></li>
+                <li><a href="proc.html">Proces</a></li>
             
-                <li><a href="var-1.html" class="">Variant 1: Doorontwikkelen</a></li>
+                <li><a href="var-1.html">Variant 1: Doorontwikkelen</a></li>
             
-                <li><a href="var-2.html" class="">Variant 2: HavoP Klein</a></li>
+                <li><a href="var-2.html">Variant 2: HavoP Klein</a></li>
             
-                <li><a href="var-3.html" class="page-link-active">Varian 3: HavoP Groot</a></li>
+                <li><a href="var-3.html" class="page-link-active">Variant 3: HavoP Groot</a></li>
             
             </ul>
         </nav>
@@ -265,13 +265,13 @@ $(('window').onload = function(){
   var isOpen = false;
   function close() {
     isOpen = false;
-    document.querySelector('.hamburger-menu_1685617875912_979').classList.remove('open');
-    document.querySelector('.hamburger-menu_1685617875912_979').classList.add('closed');
+    document.querySelector('.hamburger-menu_1686127875118_491').classList.remove('open');
+    document.querySelector('.hamburger-menu_1686127875118_491').classList.add('closed');
   }
   function open() {
     isOpen = true;
-    document.querySelector('.hamburger-menu_1685617875912_979').classList.add('open');
-    document.querySelector('.hamburger-menu_1685617875912_979').classList.remove('closed');
+    document.querySelector('.hamburger-menu_1686127875118_491').classList.add('open');
+    document.querySelector('.hamburger-menu_1686127875118_491').classList.remove('closed');
   }
   function toggle() {
     if(isOpen) close();
@@ -281,7 +281,7 @@ $(('window').onload = function(){
     close();
     move();
   }
-  var silexElement = document.querySelector('.hamburger-menu_1685617875912_979').closest('.editable-style');
+  var silexElement = document.querySelector('.hamburger-menu_1686127875118_491').closest('.editable-style');
   function move() {
     var data = window.silex
     var rect = silexElement.getBoundingClientRect();
@@ -289,10 +289,10 @@ $(('window').onload = function(){
       top: rect.top + data.scrollTop,
       left: rect.left + data.scrollLeft,
     };
-    var container = document.querySelector('.hamburger-menu_1685617875912_979 .nav-container');
+    var container = document.querySelector('.hamburger-menu_1686127875118_491 .nav-container');
     container.style.transform = 'translate(' + (data.scrollLeft - (offset.left/data.scale)) + 'px, ' + (data.scrollTop - (offset.top/data.scale)) + 'px)';
   }
-  document.querySelector('.hamburger-menu_1685617875912_979 .hamburger-btn').addEventListener('click', function() { toggle(); });
+  document.querySelector('.hamburger-menu_1686127875118_491 .hamburger-btn').addEventListener('click', function() { toggle(); });
   document.addEventListener('resize', scrollOrResize);
   document.addEventListener('scroll', scrollOrResize);
   scrollOrResize()
@@ -305,9 +305,9 @@ $(('window').onload = function(){
 
 <h3>Wat is het?</h3><p><b></b>HavoP is een praktijkgericht vak, gebaseerd op competenties die relevant zijn voor een vervolgstudie in het hbo, heeft een duidelijke LOB-component en scholen kunnen zelf inhoudelijke invulling aan het vak geven. Bij de invulling van het vak trekken vo-scholen en hogescholen nauw met elkaar op. Verschillende havo-opleidingen bieden inmiddels al een praktijkgericht havo-vak aan en hebben hiermee goede ervaringen. Het daagt leerlingen uit en stimuleert hen om hun talenten te ontdekken en te ontwikkelen. Het zorgt er ook voor dat leerlingen beter voorbereid zijn op het kiezen van een vervolgopleiding in het hbo. Ze gaan ook het verband tussen de vakken op school en hoe je deze in de praktijk kunt benutten,  beter zien. <br>Deze grote variant van HavoP beslaat 320 klokuren (de kleine variant 120 klokuren). Bij deze grote variant volgen leerlingen een fors praktijkgericht programma. Je kunt deze variant zien als keuze-examenvak. <br><br><b>Een voorbeeld over de invulling:</b><br>In de bovenbouw volgt de leerling zowel een programma binnen als buiten de school. In havo 4 volgen ze bijvoorbeeld eerst een praktijkgericht lesprogramma binnen de school. Naast het verdiepen en verbreden van vakvaardigheden, is er ook specifieke aandacht voor algemene vaardigheden, zoals ontwerpen en projectplanning. In het tweede halfjaar gaan leerlingen vervolgens op stage in een bedrijf of instelling. In havo 5 kunnen ze gedurende het eerste halfjaar verder werken in het stagebedrijf. In het tweede halfjaar werken ze dan weer in de school aan een praktijkgericht programma.<br><br></p><p>
 
-</p><h3>HOE is het ONDERZOCHT?</h3><p>Zoals eerder genoemd is er bij leerlingen en docenten geïnventariseerd waar er op onderwijskundig gebied behoefte aan is, zie het overzicht bij variant 1. Deze grote variant lijkt hier perfect op aan te sluiten. Ook op bovenschoolse bijeenkomsten en studiedagen is er informatie ingewonnen en hier bleek ook de verbinding met het vervolgonderwijs een heikel punt. <br>Deze grote variant wordt eigenlijk nog nergens toegepast, dus we hebben nog geen informatie vanuit de praktijk. <br></p><p>
+</p><h3>HOE is het ONDERZOCHT?</h3><p>Zoals eerder genoemd is er bij leerlingen en docenten geïnventariseerd waar er op onderwijskundig gebied behoefte aan is, zie het overzicht bij variant 1. Deze grote variant lijkt hier perfect op aan te sluiten. Ook op bovenschoolse bijeenkomsten en studiedagen is er informatie ingewonnen en hier bleek ook de verbinding met het vervolgonderwijs een heikel punt. <br>Deze grote variant wordt momenteel op een aantal scholen ontwikkeld, met behulp van het SLO. <br></p><p>
 
-</p><h3>VOOR- EN NADELEN</h3><p><b>Voordelen</b><br></p><p>- Levensvaardigheden (solliciteren, omgaan met geld e.d.) Dus zo goed mogelijk voorbereiden op de toekomst.<br>- Eén van de eerste in Nederland, je onderscheidt je in de regio<br>- “Past” binnen het programma, komt er niet bovenop.<br>- Extra vak dus hogere slagingskans. Als je dit vak als extra vak neemt, zou je een ander vak weg kunnen duimen als dit vak onvoldoende blijkt te zijn.<br>- Docenten worden geprikkeld<br>- Leerlingen in een andere setting zien<br>- Leer aanbod voor leerlingen binnen het profiel.<br>- Indien 7e vak meer keuze om iets te kiezen wat je aanspreekt.<br>- PWS kan erin verwerkt worden.<br>- Koppeling theorie en praktijk is duidelijker<br>- Relevantie is duidelijker<br>- De nieuwe leerweg werkt vanaf schooljaar 2024-2025 ook met een examenvak pgp. Samen optrekken is mogelijk.</p>
+</p><h3>VOOR- EN NADELEN</h3><p><b>Voordelen</b><br></p><p>- Levensvaardigheden (solliciteren, omgaan met geld e.d.) Dus zo goed mogelijk voorbereiden op de toekomst.<br>- Eén van de eerste in Nederland, je onderscheidt je in de regio<br>- “Past” binnen het programma, komt er niet bovenop.<br>- Extra vak dus hogere slagingskans. Als je dit vak als extra vak neemt, zou je een ander vak weg kunnen duimen als dit vak onvoldoende blijkt te zijn.<br>- Docenten worden geprikkeld<br>- Leerlingen in een andere setting zien<br>- Meer aanbod voor leerlingen binnen het profiel.<br>- Indien 7e vak meer keuze om iets te kiezen wat je aanspreekt.<br>- PWS kan erin verwerkt worden.<br>- Koppeling theorie en praktijk is duidelijker<br>- Relevantie is duidelijker<br>- De nieuwe leerweg werkt vanaf schooljaar 2024-2025 ook met een examenvak pgp. Samen optrekken is mogelijk.</p>
 
 <br><p></p><p>
 

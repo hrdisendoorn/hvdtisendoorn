@@ -234,7 +234,7 @@ $(('window').onload = function(){
 
 <section class="editable-style section-element silex-id-1684315526278-3 sticky fixed"><div class="editable-style container-element silex-id-1684315526279-4 silex-element-content sticky website-width"><div class="editable-style image-element silex-id-1684315626704-5"><img src="assets/Isendoorn.jpg"></div><div class="editable-style text-element silex-id-1684936644617-27 silex-component-hamburger prevent-resizable prevent-auto-z-index"><div class="silex-element-content normal">
 <!-- inspired by https://codepen.io/erikterwan/pen/EVzeRP -->
-<div class="hamburger-menu_1685617875912_979 closed">
+<div class="hamburger-menu_1686127875118_491 closed">
     <div class="hamburger-btn ">
       <span></span>
       <span></span>
@@ -247,13 +247,13 @@ $(('window').onload = function(){
             
                 <li><a href="index.html">Hoofdpagina</a></li>
             
-                <li><a href="proc.html" class="">Proces</a></li>
+                <li><a href="proc.html">Proces</a></li>
             
-                <li><a href="var-1.html" class="">Variant 1: Doorontwikkelen</a></li>
+                <li><a href="var-1.html">Variant 1: Doorontwikkelen</a></li>
             
-                <li><a href="var-2.html" class="">Variant 2: HavoP Klein</a></li>
+                <li><a href="var-2.html">Variant 2: HavoP Klein</a></li>
             
-                <li><a href="var-3.html" class="">Varian 3: HavoP Groot</a></li>
+                <li><a href="var-3.html">Variant 3: HavoP Groot</a></li>
             
             </ul>
         </nav>
@@ -265,13 +265,13 @@ $(('window').onload = function(){
   var isOpen = false;
   function close() {
     isOpen = false;
-    document.querySelector('.hamburger-menu_1685617875912_979').classList.remove('open');
-    document.querySelector('.hamburger-menu_1685617875912_979').classList.add('closed');
+    document.querySelector('.hamburger-menu_1686127875118_491').classList.remove('open');
+    document.querySelector('.hamburger-menu_1686127875118_491').classList.add('closed');
   }
   function open() {
     isOpen = true;
-    document.querySelector('.hamburger-menu_1685617875912_979').classList.add('open');
-    document.querySelector('.hamburger-menu_1685617875912_979').classList.remove('closed');
+    document.querySelector('.hamburger-menu_1686127875118_491').classList.add('open');
+    document.querySelector('.hamburger-menu_1686127875118_491').classList.remove('closed');
   }
   function toggle() {
     if(isOpen) close();
@@ -281,7 +281,7 @@ $(('window').onload = function(){
     close();
     move();
   }
-  var silexElement = document.querySelector('.hamburger-menu_1685617875912_979').closest('.editable-style');
+  var silexElement = document.querySelector('.hamburger-menu_1686127875118_491').closest('.editable-style');
   function move() {
     var data = window.silex
     var rect = silexElement.getBoundingClientRect();
@@ -289,10 +289,10 @@ $(('window').onload = function(){
       top: rect.top + data.scrollTop,
       left: rect.left + data.scrollLeft,
     };
-    var container = document.querySelector('.hamburger-menu_1685617875912_979 .nav-container');
+    var container = document.querySelector('.hamburger-menu_1686127875118_491 .nav-container');
     container.style.transform = 'translate(' + (data.scrollLeft - (offset.left/data.scale)) + 'px, ' + (data.scrollTop - (offset.top/data.scale)) + 'px)';
   }
-  document.querySelector('.hamburger-menu_1685617875912_979 .hamburger-btn').addEventListener('click', function() { toggle(); });
+  document.querySelector('.hamburger-menu_1686127875118_491 .hamburger-btn').addEventListener('click', function() { toggle(); });
   document.addEventListener('resize', scrollOrResize);
   document.addEventListener('scroll', scrollOrResize);
   scrollOrResize()
@@ -305,4 +305,4 @@ $(('window').onload = function(){
 
 <p>Allereerst is gezocht naar zoveel mogelijk opties. Op welke wijze wordt al praktijk aangeboden binnen scholen? Waar wordt verbinding gemaakt met het vervolgonderwijs en de beroepspraktijk?&nbsp;Er is gekeken naar toepassingen binnen verschillende schoolsystemen, zowel in Nederland als internationaal.&nbsp;</p><p>Hieruit zijn drie ideeën overgebleven die wellicht passend zouden zijn voor het Isendoorn.&nbsp;</p><p>1. Meer gebruik maken van initiatieven die we al hebben: Masterclasses, stages, etc.</p><p>2. 80/20 onderwijs. 20% Van het onderwijs (één dag) is praktijkgericht en vakoverstijgend.&nbsp;</p><p>3. HavoP (PGP Pilot van het SLO). In dit kader draait al een 'kleine' variant als pilot. Een pilot voor de 'grote' variant begint schooljaar 23-24.</p><p><br></p><p>Deze opties zijn in verder detail uitgewerkt aan de hand van:</p><p>- Een schoolbezoek aan een 80/20 school<br></p><p>- Een schoolbezoek aan een HavoP (klein) school<br></p><p>- Bovenschoolse bijeenkomsten en het <a href="documents/brochure_havo-congres_2023.pdf" title="Congres">'Trots op Havo' congres.&nbsp;</a></p><p>- Literatuur onderzoek in focusgroepen:</p><p>    <a href="documents/Advies 80_20.pdf" title="Focus 8020">- 80/20</a></p><p>    <a href="documents/SLO HvdT.pdf" title="havop groot en klein">- HavoP (groot)</a></p><p>    <a href="documents/SLO HvdT.pdf" title="Havop groot en klein">- HavoP (klein)</a>&nbsp;</p><p><br></p><p><br></p><p>&nbsp;</p><p><br><br></p>
 
-</div></div></div></section></body></html>
+</div></div><a class="editable-style image-element silex-id-1686127616708-7 zoom zoom:hover" href="watisnodig.html"><img src="assets/NodigLeft.png"></a><a class="editable-style image-element silex-id-1686127677544-8 zoom zoom:hover" href="watradenweaan.html"><img src="assets/adviesRight.png"></a></div></section></body></html>

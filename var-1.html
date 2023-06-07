@@ -234,7 +234,7 @@ $(('window').onload = function(){
 
 <section class="editable-style section-element silex-id-1684315526278-3 sticky fixed"><div class="editable-style container-element silex-id-1684315526279-4 silex-element-content sticky website-width"><div class="editable-style image-element silex-id-1684315626704-5"><img src="assets/Isendoorn.jpg"></div><div class="editable-style text-element silex-id-1684936644617-27 silex-component-hamburger prevent-resizable prevent-auto-z-index"><div class="silex-element-content normal">
 <!-- inspired by https://codepen.io/erikterwan/pen/EVzeRP -->
-<div class="hamburger-menu_1685617875912_979 closed">
+<div class="hamburger-menu_1686127875118_491 closed">
     <div class="hamburger-btn ">
       <span></span>
       <span></span>
@@ -247,13 +247,13 @@ $(('window').onload = function(){
             
                 <li><a href="index.html">Hoofdpagina</a></li>
             
-                <li><a href="proc.html" class="">Proces</a></li>
+                <li><a href="proc.html">Proces</a></li>
             
                 <li><a href="var-1.html" class="page-link-active">Variant 1: Doorontwikkelen</a></li>
             
-                <li><a href="var-2.html" class="">Variant 2: HavoP Klein</a></li>
+                <li><a href="var-2.html">Variant 2: HavoP Klein</a></li>
             
-                <li><a href="var-3.html" class="">Varian 3: HavoP Groot</a></li>
+                <li><a href="var-3.html">Variant 3: HavoP Groot</a></li>
             
             </ul>
         </nav>
@@ -265,13 +265,13 @@ $(('window').onload = function(){
   var isOpen = false;
   function close() {
     isOpen = false;
-    document.querySelector('.hamburger-menu_1685617875912_979').classList.remove('open');
-    document.querySelector('.hamburger-menu_1685617875912_979').classList.add('closed');
+    document.querySelector('.hamburger-menu_1686127875118_491').classList.remove('open');
+    document.querySelector('.hamburger-menu_1686127875118_491').classList.add('closed');
   }
   function open() {
     isOpen = true;
-    document.querySelector('.hamburger-menu_1685617875912_979').classList.add('open');
-    document.querySelector('.hamburger-menu_1685617875912_979').classList.remove('closed');
+    document.querySelector('.hamburger-menu_1686127875118_491').classList.add('open');
+    document.querySelector('.hamburger-menu_1686127875118_491').classList.remove('closed');
   }
   function toggle() {
     if(isOpen) close();
@@ -281,7 +281,7 @@ $(('window').onload = function(){
     close();
     move();
   }
-  var silexElement = document.querySelector('.hamburger-menu_1685617875912_979').closest('.editable-style');
+  var silexElement = document.querySelector('.hamburger-menu_1686127875118_491').closest('.editable-style');
   function move() {
     var data = window.silex
     var rect = silexElement.getBoundingClientRect();
@@ -289,10 +289,10 @@ $(('window').onload = function(){
       top: rect.top + data.scrollTop,
       left: rect.left + data.scrollLeft,
     };
-    var container = document.querySelector('.hamburger-menu_1685617875912_979 .nav-container');
+    var container = document.querySelector('.hamburger-menu_1686127875118_491 .nav-container');
     container.style.transform = 'translate(' + (data.scrollLeft - (offset.left/data.scale)) + 'px, ' + (data.scrollTop - (offset.top/data.scale)) + 'px)';
   }
-  document.querySelector('.hamburger-menu_1685617875912_979 .hamburger-btn').addEventListener('click', function() { toggle(); });
+  document.querySelector('.hamburger-menu_1686127875118_491 .hamburger-btn').addEventListener('click', function() { toggle(); });
   document.addEventListener('resize', scrollOrResize);
   document.addEventListener('scroll', scrollOrResize);
   scrollOrResize()
@@ -311,6 +311,6 @@ $(('window').onload = function(){
 
 </div></div></div></section><section class="editable-style section-element silex-id-1684919621984-39 page-var-1 paged-element paged-element-visible"><div class="editable-style container-element silex-id-1684919621996-40 silex-element-content website-width prevent-draggable"><div class="editable-style text-element silex-id-1684919778022-47 text-style-1" title=""><div class="silex-element-content normal">
 
-<h3><br></h3><h3>Voor- en Nadelen</h3><p><b>Voordelen</b></p><p>- Behouden en doorontwikkelen wat we al doen is gemakkelijk<br>- Contact met vervolgopleidingen verdiepen<br>- Mogelijkheid kleine stage (1 week)<br>- Beter maken wat je al hebt.<br>- Docenten hoeven niet omgeschoold te worden en kunnen blijven doen wat ze deden.<br>- Kans voor een doorlopende leerlijn PBL in vakken 1-5<br>- Weinig verandering in school, denk aan lessentabel e.d.<br>- Verbeterslag PWS C&amp;M en E&amp;M door de masterclass <br></p><p><br></p><p><b>Nadelen</b></p><p>- Geen grote duidelijke nieuwe koers<br>- Slagingskans blijft gelijk<br>- Geen duidelijke verbetering van voorbereiding op de toekomst.<br>- Alle secties programma aanpassen<br>- Niet echt pr voor een inspirerende havo in de regio<br>- Zelfstandig mee aan het werk, geen SLO hulp.<br>- Minder vernieuwend<br><br></p><p><br></p><br><br>
+<h3><br></h3><h3>Voor- en Nadelen</h3><p><b>Voordelen</b></p><p>- Behouden en doorontwikkelen wat we al doen<br>- Contact met vervolgopleidingen verdiepen<br>- Mogelijkheid kleine stage (1 week)<br>- Beter maken wat je al hebt.<br>- Docenten hoeven niet omgeschoold te worden en kunnen blijven doen wat ze deden.<br>- Kans voor een doorlopende leerlijn PBL in vakken 1-5<br>- Weinig verandering in school, denk aan lessentabel e.d.<br>- Verbeterslag PWS C&amp;M en E&amp;M door de masterclass <br></p><p><br></p><p><b>Nadelen</b></p><p>- Geen grote duidelijke nieuwe koers<br>- Slagingskans blijft gelijk<br>- Geen duidelijke verbetering van voorbereiding op de toekomst.<br>- Alle secties programma aanpassen<br>- Niet echt pr voor een inspirerende havo in de regio<br>- Zelfstandig mee aan het werk, geen SLO hulp.<br>- Minder vernieuwend<br><br></p><p><br></p><br><br>
 
 </div></div></div></section></body></html>

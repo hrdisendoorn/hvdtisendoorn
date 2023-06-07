@@ -234,7 +234,7 @@ $(('window').onload = function(){
 
 <section class="editable-style section-element silex-id-1684315526278-3 sticky fixed"><div class="editable-style container-element silex-id-1684315526279-4 silex-element-content sticky website-width"><div class="editable-style image-element silex-id-1684315626704-5"><img src="assets/Isendoorn.jpg"></div><div class="editable-style text-element silex-id-1684936644617-27 silex-component-hamburger prevent-resizable prevent-auto-z-index"><div class="silex-element-content normal">
 <!-- inspired by https://codepen.io/erikterwan/pen/EVzeRP -->
-<div class="hamburger-menu_1685617875912_979 closed">
+<div class="hamburger-menu_1686127875118_491 closed">
     <div class="hamburger-btn ">
       <span></span>
       <span></span>
@@ -247,13 +247,13 @@ $(('window').onload = function(){
             
                 <li><a href="index.html">Hoofdpagina</a></li>
             
-                <li><a href="proc.html" class="">Proces</a></li>
+                <li><a href="proc.html">Proces</a></li>
             
-                <li><a href="var-1.html" class="">Variant 1: Doorontwikkelen</a></li>
+                <li><a href="var-1.html">Variant 1: Doorontwikkelen</a></li>
             
-                <li><a href="var-2.html" class="">Variant 2: HavoP Klein</a></li>
+                <li><a href="var-2.html">Variant 2: HavoP Klein</a></li>
             
-                <li><a href="var-3.html" class="">Varian 3: HavoP Groot</a></li>
+                <li><a href="var-3.html">Variant 3: HavoP Groot</a></li>
             
             </ul>
         </nav>
@@ -265,13 +265,13 @@ $(('window').onload = function(){
   var isOpen = false;
   function close() {
     isOpen = false;
-    document.querySelector('.hamburger-menu_1685617875912_979').classList.remove('open');
-    document.querySelector('.hamburger-menu_1685617875912_979').classList.add('closed');
+    document.querySelector('.hamburger-menu_1686127875118_491').classList.remove('open');
+    document.querySelector('.hamburger-menu_1686127875118_491').classList.add('closed');
   }
   function open() {
     isOpen = true;
-    document.querySelector('.hamburger-menu_1685617875912_979').classList.add('open');
-    document.querySelector('.hamburger-menu_1685617875912_979').classList.remove('closed');
+    document.querySelector('.hamburger-menu_1686127875118_491').classList.add('open');
+    document.querySelector('.hamburger-menu_1686127875118_491').classList.remove('closed');
   }
   function toggle() {
     if(isOpen) close();
@@ -281,7 +281,7 @@ $(('window').onload = function(){
     close();
     move();
   }
-  var silexElement = document.querySelector('.hamburger-menu_1685617875912_979').closest('.editable-style');
+  var silexElement = document.querySelector('.hamburger-menu_1686127875118_491').closest('.editable-style');
   function move() {
     var data = window.silex
     var rect = silexElement.getBoundingClientRect();
@@ -289,10 +289,10 @@ $(('window').onload = function(){
       top: rect.top + data.scrollTop,
       left: rect.left + data.scrollLeft,
     };
-    var container = document.querySelector('.hamburger-menu_1685617875912_979 .nav-container');
+    var container = document.querySelector('.hamburger-menu_1686127875118_491 .nav-container');
     container.style.transform = 'translate(' + (data.scrollLeft - (offset.left/data.scale)) + 'px, ' + (data.scrollTop - (offset.top/data.scale)) + 'px)';
   }
-  document.querySelector('.hamburger-menu_1685617875912_979 .hamburger-btn').addEventListener('click', function() { toggle(); });
+  document.querySelector('.hamburger-menu_1686127875118_491 .hamburger-btn').addEventListener('click', function() { toggle(); });
   document.addEventListener('resize', scrollOrResize);
   document.addEventListener('scroll', scrollOrResize);
   scrollOrResize()
@@ -305,6 +305,6 @@ $(('window').onload = function(){
 
 <p>Uiteindelijk is besloten drie opties mee te nemen in het advies.&nbsp;</p><p>
 
-</p><p>1. Doorontwikkelen van het huidige onderwijs</p><p>2. HavoP Klein</p><p>3. HavoP Groot&nbsp;</p><p></p><p>De optie om 80/20 onderwijs aan te bieden is op basis van wat waargenomen is tijdens het schoolbezoek, de bevindingen op het congres en onze eigen afwegingen, ongeschikt geacht. Omdat de grote en kleine variant van HavoP verschillen in fase van ontwikkeling en manier van implementeren zijn deze als twee afzonderlijke vormen behandeld.&nbsp;</p><p>Gezamenlijk zijn van alle drie de mogelijkheden de <a href="documents/voors- en tegens per P.pdf" title="Voor en tegen">voor en tegens</a> geïnventariseerd.&nbsp;</p><p>Tot slot is het uiteindelijke advies geschreven dat <a href="index.html" title="main">hier</a> te lezen is.</p><p><br></p><p><br><br></p>
+</p><p>1. Doorontwikkelen van het huidige onderwijs</p><p>2. HavoP Klein</p><p>3. HavoP Groot&nbsp;</p><p></p><p>De optie om 80/20 onderwijs aan te bieden is op basis van wat waargenomen is tijdens het schoolbezoek, de bevindingen op het congres en onze eigen afwegingen, ongeschikt geacht. Omdat de grote en kleine variant van HavoP verschillen in fase van ontwikkeling en manier van implementeren zijn deze als twee afzonderlijke vormen behandeld.&nbsp;</p><p>Gezamenlijk zijn van alle drie de mogelijkheden de <a href="documents/voors- en tegens per P.pdf" title="Voor en tegen">voor en tegens</a> geïnventariseerd.&nbsp;</p><p>Tot slot is het uiteindelijke advies geschreven dat <a href="index.html" title="main" class="">hier</a> te lezen is.</p><p><br></p><p><br><br></p>
 
-</div></div></div></section></body></html>
+</div></div><a class="editable-style image-element silex-id-1686127737486-9 zoom zoom:hover" href="opties.html"><img src="assets/optiesLeft.png"></a></div></section></body></html>

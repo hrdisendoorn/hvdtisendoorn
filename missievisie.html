@@ -234,7 +234,7 @@ $(('window').onload = function(){
 
 <section class="editable-style section-element silex-id-1684315526278-3 sticky fixed"><div class="editable-style container-element silex-id-1684315526279-4 silex-element-content sticky website-width"><div class="editable-style image-element silex-id-1684315626704-5"><img src="assets/Isendoorn.jpg"></div><div class="editable-style text-element silex-id-1684936644617-27 silex-component-hamburger prevent-resizable prevent-auto-z-index"><div class="silex-element-content normal">
 <!-- inspired by https://codepen.io/erikterwan/pen/EVzeRP -->
-<div class="hamburger-menu_1685617875912_979 closed">
+<div class="hamburger-menu_1686127875118_491 closed">
     <div class="hamburger-btn ">
       <span></span>
       <span></span>
@@ -247,13 +247,13 @@ $(('window').onload = function(){
             
                 <li><a href="index.html">Hoofdpagina</a></li>
             
-                <li><a href="proc.html" class="">Proces</a></li>
+                <li><a href="proc.html">Proces</a></li>
             
-                <li><a href="var-1.html" class="">Variant 1: Doorontwikkelen</a></li>
+                <li><a href="var-1.html">Variant 1: Doorontwikkelen</a></li>
             
-                <li><a href="var-2.html" class="">Variant 2: HavoP Klein</a></li>
+                <li><a href="var-2.html">Variant 2: HavoP Klein</a></li>
             
-                <li><a href="var-3.html" class="">Varian 3: HavoP Groot</a></li>
+                <li><a href="var-3.html">Variant 3: HavoP Groot</a></li>
             
             </ul>
         </nav>
@@ -265,13 +265,13 @@ $(('window').onload = function(){
   var isOpen = false;
   function close() {
     isOpen = false;
-    document.querySelector('.hamburger-menu_1685617875912_979').classList.remove('open');
-    document.querySelector('.hamburger-menu_1685617875912_979').classList.add('closed');
+    document.querySelector('.hamburger-menu_1686127875118_491').classList.remove('open');
+    document.querySelector('.hamburger-menu_1686127875118_491').classList.add('closed');
   }
   function open() {
     isOpen = true;
-    document.querySelector('.hamburger-menu_1685617875912_979').classList.add('open');
-    document.querySelector('.hamburger-menu_1685617875912_979').classList.remove('closed');
+    document.querySelector('.hamburger-menu_1686127875118_491').classList.add('open');
+    document.querySelector('.hamburger-menu_1686127875118_491').classList.remove('closed');
   }
   function toggle() {
     if(isOpen) close();
@@ -281,7 +281,7 @@ $(('window').onload = function(){
     close();
     move();
   }
-  var silexElement = document.querySelector('.hamburger-menu_1685617875912_979').closest('.editable-style');
+  var silexElement = document.querySelector('.hamburger-menu_1686127875118_491').closest('.editable-style');
   function move() {
     var data = window.silex
     var rect = silexElement.getBoundingClientRect();
@@ -289,10 +289,10 @@ $(('window').onload = function(){
       top: rect.top + data.scrollTop,
       left: rect.left + data.scrollLeft,
     };
-    var container = document.querySelector('.hamburger-menu_1685617875912_979 .nav-container');
+    var container = document.querySelector('.hamburger-menu_1686127875118_491 .nav-container');
     container.style.transform = 'translate(' + (data.scrollLeft - (offset.left/data.scale)) + 'px, ' + (data.scrollTop - (offset.top/data.scale)) + 'px)';
   }
-  document.querySelector('.hamburger-menu_1685617875912_979 .hamburger-btn').addEventListener('click', function() { toggle(); });
+  document.querySelector('.hamburger-menu_1686127875118_491 .hamburger-btn').addEventListener('click', function() { toggle(); });
   document.addEventListener('resize', scrollOrResize);
   document.addEventListener('scroll', scrollOrResize);
   scrollOrResize()
@@ -301,8 +301,8 @@ $(('window').onload = function(){
 </script>
 </div></div></div></section><section class="editable-style section-element silex-id-1685001836477-4 page-missievisie paged-element paged-element-visible"><div class="editable-style container-element silex-id-1685001836477-5 page-missievisie paged-element hero website-width paged-element-visible" title=""><div class="editable-style text-element silex-id-1685001836477-6 page-missievisie paged-element paged-element-visible"><div class="silex-element-content normal"> <h1>Proces: Missie en Visie</h1><p>
 
-</p></div></div><div class="editable-style image-element silex-id-1685004921104-79"><img src="assets/Boterham.PNG"></div></div></section><section class="editable-style section-element silex-id-1685001836477-8 page-missievisie paged-element paged-element-visible"><div class="editable-style container-element silex-id-1685001836477-9 page-missievisie paged-element silex-element-content website-width prevent-draggable paged-element-visible"><div class="editable-style text-element silex-id-1685001836477-10 page-missievisie paged-element text-style-1 paged-element-visible" title=""><div class="silex-element-content normal">
+</p></div></div><div class="editable-style image-element silex-id-1685004921104-79"><img src="assets/Boterham.PNG"></div></div></section><section class="editable-style section-element silex-id-1685001836477-8 page-missievisie paged-element paged-element-visible"><div class="editable-style container-element silex-id-1685001836477-9 page-missievisie paged-element silex-element-content website-width prevent-draggable paged-element-visible"><div class="editable-style image-element silex-id-1685526893616-17"><img src="assets/tijdspad%202122.PNG"></div><div class="editable-style text-element silex-id-1685001836477-10 page-missievisie paged-element text-style-1 paged-element-visible" title=""><div class="silex-element-content normal">
 
 <p>In het schooljaar 21-22 heeft de werkgroep Havo van de Toekomst onderzocht wat de <a href="documents/uitwerking posters H3_H4_H5_ werkgroep leerlingen.pdf" title="Uitwerking posters">behoeftes</a> zijn van de havo-leerling op het isendoorn. Hieruit is de <a href="documents/Boterham visie v4.2.pdf" target="_top" title="Boterham visie">boterham-visie</a> gekomen.&nbsp;</p><p>Na de <a href="https://docs.google.com/presentation/d/17fKMjQniHxJeYtobk851PsA8tnw4pbSegf2WaOKyPrs/edit?usp=sharing">presentatie en afronding</a> van het onderzoek is besloten dat de werkgroep zich in schooljaar 22-23 gaat richten op de praktijk en de aard van de havo in de toekomst van het Isendoorn.</p><p>&nbsp;</p><p><br><br></p>
 
-</div></div><div class="editable-style image-element silex-id-1685526893616-17"><img src="assets/tijdspad%202122.PNG"></div></div></section></body></html>
+</div></div><a class="editable-style image-element silex-id-1686127402699-4 zoom zoom:hover" href="watisnodig.html"><img src="assets/NodigRight.png"></a></div></section></body></html>

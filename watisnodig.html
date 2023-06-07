@@ -234,7 +234,7 @@ $(('window').onload = function(){
 
 <section class="editable-style section-element silex-id-1684315526278-3 sticky fixed"><div class="editable-style container-element silex-id-1684315526279-4 silex-element-content sticky website-width"><div class="editable-style image-element silex-id-1684315626704-5"><img src="assets/Isendoorn.jpg"></div><div class="editable-style text-element silex-id-1684936644617-27 silex-component-hamburger prevent-resizable prevent-auto-z-index"><div class="silex-element-content normal">
 <!-- inspired by https://codepen.io/erikterwan/pen/EVzeRP -->
-<div class="hamburger-menu_1685617875912_979 closed">
+<div class="hamburger-menu_1686127875118_491 closed">
     <div class="hamburger-btn ">
       <span></span>
       <span></span>
@@ -247,13 +247,13 @@ $(('window').onload = function(){
             
                 <li><a href="index.html">Hoofdpagina</a></li>
             
-                <li><a href="proc.html" class="">Proces</a></li>
+                <li><a href="proc.html">Proces</a></li>
             
-                <li><a href="var-1.html" class="">Variant 1: Doorontwikkelen</a></li>
+                <li><a href="var-1.html">Variant 1: Doorontwikkelen</a></li>
             
-                <li><a href="var-2.html" class="">Variant 2: HavoP Klein</a></li>
+                <li><a href="var-2.html">Variant 2: HavoP Klein</a></li>
             
-                <li><a href="var-3.html" class="">Varian 3: HavoP Groot</a></li>
+                <li><a href="var-3.html">Variant 3: HavoP Groot</a></li>
             
             </ul>
         </nav>
@@ -265,13 +265,13 @@ $(('window').onload = function(){
   var isOpen = false;
   function close() {
     isOpen = false;
-    document.querySelector('.hamburger-menu_1685617875912_979').classList.remove('open');
-    document.querySelector('.hamburger-menu_1685617875912_979').classList.add('closed');
+    document.querySelector('.hamburger-menu_1686127875118_491').classList.remove('open');
+    document.querySelector('.hamburger-menu_1686127875118_491').classList.add('closed');
   }
   function open() {
     isOpen = true;
-    document.querySelector('.hamburger-menu_1685617875912_979').classList.add('open');
-    document.querySelector('.hamburger-menu_1685617875912_979').classList.remove('closed');
+    document.querySelector('.hamburger-menu_1686127875118_491').classList.add('open');
+    document.querySelector('.hamburger-menu_1686127875118_491').classList.remove('closed');
   }
   function toggle() {
     if(isOpen) close();
@@ -281,7 +281,7 @@ $(('window').onload = function(){
     close();
     move();
   }
-  var silexElement = document.querySelector('.hamburger-menu_1685617875912_979').closest('.editable-style');
+  var silexElement = document.querySelector('.hamburger-menu_1686127875118_491').closest('.editable-style');
   function move() {
     var data = window.silex
     var rect = silexElement.getBoundingClientRect();
@@ -289,10 +289,10 @@ $(('window').onload = function(){
       top: rect.top + data.scrollTop,
       left: rect.left + data.scrollLeft,
     };
-    var container = document.querySelector('.hamburger-menu_1685617875912_979 .nav-container');
+    var container = document.querySelector('.hamburger-menu_1686127875118_491 .nav-container');
     container.style.transform = 'translate(' + (data.scrollLeft - (offset.left/data.scale)) + 'px, ' + (data.scrollTop - (offset.top/data.scale)) + 'px)';
   }
-  document.querySelector('.hamburger-menu_1685617875912_979 .hamburger-btn').addEventListener('click', function() { toggle(); });
+  document.querySelector('.hamburger-menu_1686127875118_491 .hamburger-btn').addEventListener('click', function() { toggle(); });
   document.addEventListener('resize', scrollOrResize);
   document.addEventListener('scroll', scrollOrResize);
   scrollOrResize()
@@ -305,4 +305,4 @@ $(('window').onload = function(){
 
 <p>Binnen de kernteams van klas 3 t/m 5 is <a href="documents/bevindingen h3_h4_h5.pdf" title="Bevindingen kernteams">onderzocht</a> wat het beeld is bij een praktische component binnen de havo. De belangrijkste vragen waren:&nbsp;<br></p><ul><li><p>Waar wordt aan gedacht bij een praktische component?&nbsp;</p></li><li><p>Wat moet de invulling zijn van dit component?&nbsp;</p></li></ul><p>Het bleek dat het niet wenselijk was teveel toe te voegen aan dat wat het Isendoorn al heeft. Een extra vraag was dus:&nbsp;&nbsp;</p><ul><li><p>&nbsp;Hoe implementeren we een praktische element zonder dat het iets extra's wordt?</p></li></ul><p>Eén van de belangrijkste conclusies was dat er vooral behoefte is om 'de wereld binnen de school te halen'. Dit bijvoorbeeld door middel van: stage, externe opdrachtgevers en verbinding met de vervolgopleidingen. Leerlingen moeten ervaring waar hun havo tijd naar leidt en de lesstof in de praktijk ervaren.<br><br></p><p>Met dit en de bevindingen uit 21-22 in het achterhoofd is vervolgens besloten verschillende mogelijkheden te inventariseren. Dit is begin december naar het personeel <a href="documents/Update Werkgroep HAVO van de toekomst.pdf" title="Update weekinfo december">gecommuniceerd.</a></p><p>&nbsp;</p><p><br></p><p><br></p><p><br></p><p><br></p><p>&nbsp;</p><p><br><br></p>
 
-</div></div></div></section></body></html>
+</div></div><a class="editable-style image-element silex-id-1686127491212-5 zoom zoom:hover" href="missievisie.html"><img src="assets/missieLeft.png"></a><a class="editable-style image-element silex-id-1686127552395-6 zoom zoom:hover" href="opties.html"><img src="assets/optiesRight.png"></a></div></section></body></html>
