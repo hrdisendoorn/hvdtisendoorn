@@ -234,7 +234,7 @@ $(('window').onload = function(){
 
 <section class="editable-style section-element silex-id-1684315526278-3 sticky fixed"><div class="editable-style container-element silex-id-1684315526279-4 silex-element-content sticky website-width"><div class="editable-style image-element silex-id-1684315626704-5"><img src="assets/Isendoorn.jpg"></div><div class="editable-style text-element silex-id-1684936644617-27 silex-component-hamburger prevent-resizable prevent-auto-z-index"><div class="silex-element-content normal">
 <!-- inspired by https://codepen.io/erikterwan/pen/EVzeRP -->
-<div class="hamburger-menu_1686224051945_542 closed">
+<div class="hamburger-menu_1686489993224_490 closed">
     <div class="hamburger-btn ">
       <span></span>
       <span></span>
@@ -249,7 +249,7 @@ $(('window').onload = function(){
             
                 <li><a href="proc.html">Proces</a></li>
             
-                <li><a href="var-1.html">Variant 1: Doorontwikkelen</a></li>
+                <li><a href="var-1.html" class="">Variant 1: Doorontwikkelen</a></li>
             
                 <li><a href="var-2.html">Variant 2: HavoP Klein</a></li>
             
@@ -265,13 +265,13 @@ $(('window').onload = function(){
   var isOpen = false;
   function close() {
     isOpen = false;
-    document.querySelector('.hamburger-menu_1686224051945_542').classList.remove('open');
-    document.querySelector('.hamburger-menu_1686224051945_542').classList.add('closed');
+    document.querySelector('.hamburger-menu_1686489993224_490').classList.remove('open');
+    document.querySelector('.hamburger-menu_1686489993224_490').classList.add('closed');
   }
   function open() {
     isOpen = true;
-    document.querySelector('.hamburger-menu_1686224051945_542').classList.add('open');
-    document.querySelector('.hamburger-menu_1686224051945_542').classList.remove('closed');
+    document.querySelector('.hamburger-menu_1686489993224_490').classList.add('open');
+    document.querySelector('.hamburger-menu_1686489993224_490').classList.remove('closed');
   }
   function toggle() {
     if(isOpen) close();
@@ -281,7 +281,7 @@ $(('window').onload = function(){
     close();
     move();
   }
-  var silexElement = document.querySelector('.hamburger-menu_1686224051945_542').closest('.editable-style');
+  var silexElement = document.querySelector('.hamburger-menu_1686489993224_490').closest('.editable-style');
   function move() {
     var data = window.silex
     var rect = silexElement.getBoundingClientRect();
@@ -289,10 +289,10 @@ $(('window').onload = function(){
       top: rect.top + data.scrollTop,
       left: rect.left + data.scrollLeft,
     };
-    var container = document.querySelector('.hamburger-menu_1686224051945_542 .nav-container');
+    var container = document.querySelector('.hamburger-menu_1686489993224_490 .nav-container');
     container.style.transform = 'translate(' + (data.scrollLeft - (offset.left/data.scale)) + 'px, ' + (data.scrollTop - (offset.top/data.scale)) + 'px)';
   }
-  document.querySelector('.hamburger-menu_1686224051945_542 .hamburger-btn').addEventListener('click', function() { toggle(); });
+  document.querySelector('.hamburger-menu_1686489993224_490 .hamburger-btn').addEventListener('click', function() { toggle(); });
   document.addEventListener('resize', scrollOrResize);
   document.addEventListener('scroll', scrollOrResize);
   scrollOrResize()
@@ -303,7 +303,7 @@ $(('window').onload = function(){
 
 </p><p>Advies rapport werkgroep Havo van de Toekomst<br></p><p>
 
-</p><span class="_wysihtml-temp-caret-fix" style="position: absolute; display: block; min-width: 1px; z-index: 99999;">﻿</span></div></div><div class="editable-style text-element silex-id-1686126578859-0 content-white"><div class="silex-element-content normal"><p><i>"Dit alles leidt ertoe dat onze HAVO- leerling <u>competent</u>, <u>trots </u>en met een rugzak vol <u>vaardigheden </u>de volgende stap kunnen gaan zetten in de maatschappij."</i></p></div></div></div></section><section class="editable-style section-element silex-id-1489143327627-3 page-design paged-element paged-element-visible"><div class="editable-style container-element silex-id-1489143327626-2 website-width" id="after-hero" title=""><div class="editable-style text-element silex-id-1440798996856-3 text-style-1" title=""><div class="silex-element-content normal">
+</p><span class="_wysihtml-temp-caret-fix" style="position: absolute; display: block; min-width: 1px; z-index: 99999;">﻿</span></div></div><div class="editable-style text-element silex-id-1686126578859-0 content-white"><div class="silex-element-content normal"><p><i>"Dit alles leidt ertoe dat onze HAVO- leerlingen&nbsp;<u>competent</u>, <u>trots </u>en met een rugzak vol <u>vaardigheden </u>de volgende stap kunnen gaan zetten in de maatschappij."</i></p></div></div></div></section><section class="editable-style section-element silex-id-1489143327627-3 page-design paged-element paged-element-visible"><div class="editable-style container-element silex-id-1489143327626-2 website-width" id="after-hero" title=""><div class="editable-style text-element silex-id-1440798996856-3 text-style-1" title=""><div class="silex-element-content normal">
 
 <h3>Inleiding</h3><p>De projectgroep Havo van de Toekomst heeft de afgelopen twee jaar diverse mogelijkheden onderzocht om met een advies te komen om ons havo-onderwijs meer toekomstbestendig te maken, waarbij onderzocht diende te worden of het mogelijk was daar een praktisch component in te verwerken. Dit hebben we onder andere gedaan door in gesprek te gaan met collega’s maar ook leerlingen over hoe het havo onderwijs in de toekomst eruit zou kunnen/moeten zien. Daarnaast hebben we diverse scholen bezocht die op verschillende wijze hun havo-onderwijs anders vormgegeven hadden. We hebben naar aanleiding hiervan 3 mogelijkheden onderzocht. Bij alle onderstaande mogelijkheden zien we in meer of mindere mate ruimte voor meer praktijk in het onderwijs en een betere voorbereiding op de huidige maatschappij. <br>Als eerste zetten we uiteen wat de voor- en nadelen zijn per variant, daarna zullen wij met een aanbeveling komen voor het Isendoorn College.<br><br><br>Werkgroep Havo van de Toekomst,</p><p>Dilek Bas<br>Tom Broekhaar<br>
 
